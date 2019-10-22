@@ -277,6 +277,46 @@
     margin-right: 5px;
     font-family: "Raleway";
 }
+
+.emailEntry {
+    border-radius: 50px;
+    background: white;
+    padding: 20px;
+    padding-top: 20px;
+    width: 325px;
+    height: 10px;
+    border: none;
+    color: grey;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+form {
+    position: relative;
+}
+.subscribe {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border-radius: 50px;
+    background: #e2574c;
+    padding: 20px; 
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 .footer-text {
     background-color: #242424;
     display: flex;

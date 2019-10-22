@@ -7,6 +7,7 @@
     <title>Aloha</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> 
     <script src="https://kit.fontawesome.com/2d6deae551.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -52,22 +53,22 @@
         </section>
         <section>
             <h2 class="clothing">Most-Loved <span class="clothing2">Products</span></h2>
-            <div>
-                <figure>
+            <div class="main-carousel">
+                <figure class="carousel-cell1">
                     <img alt="add here" src="images/stretch-knit-dress.jpg"/>
                     <p>Dresses</p>
                     <h3>Stretched Knit Dress</h3>
                     <p>$169.00</p>
                     <button>Add to Cart</button>
                 </figure>
-                <figure>
+                <figure class="carousel-cell2">
                     <img alt="add here" src="images/cotton-blue-shirt.jpg"/>
                     <p>Shirts</p>
                     <h3>Cotton Blue Shirt</h3>
                     <p>$89.00</p>
                     <button>Add to Cart</button>
                 </figure>
-                <figure>
+                <figure class="carousel-cell3">
                     <img alt="add here" src="images/demin-overall-shorts.jpg"/>
                     <p>Shorts</p>
                     <h3>Denim Overall Shorts</h3>
@@ -80,7 +81,7 @@
             <p>Sign-up for <span class="updates2">Updates</span></p>
             <p>Stay updated on our latest product releases, be the first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
             <form> 
-                <input type="email" name="username">
+                <input type="email" name="username" value="Your Email"class="emailEntry">
                 <input type="submit" value="Subscribe" class="subscribe">
             </form>
         </section>
@@ -101,6 +102,7 @@
                 </ul>
              </div>
         </footer>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>
